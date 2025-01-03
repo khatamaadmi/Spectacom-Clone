@@ -2,7 +2,7 @@ import { Clock, Users } from 'lucide-react'
 
 export default function ApproachSection() {
     return (
-        <div className="max-w-7xl mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4 mb-12">
             <div className="space-y-8">
                 {/* Heading */}
                 <h2 className="text-lg font-semibold tracking-wider text-gray-600 uppercase">

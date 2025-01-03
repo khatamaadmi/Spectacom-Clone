@@ -1,4 +1,3 @@
-'use client'
 
 import React, { useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify'
@@ -39,7 +38,7 @@ export default function NewsletterSubscription() {
                         </div>
                         <button
                             type="submit"
-                            className="px-6 py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition duration-300 ease-in-out"
+                            className="px-6 py-2 bg-[#b89841] text-white font-semibold rounded-md transition duration-300 ease-in-out"
                         >
                             Let's talk
                         </button>

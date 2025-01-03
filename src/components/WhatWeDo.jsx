@@ -4,7 +4,7 @@ import { services } from './serviceData.jsx';
 
 export default function WhatWeDo() {
     return (
-        <div className="container mx-auto ">
+        <div className="container xs:mx-auto m-0  p-4 flex-wrap gap-4 xs:flex flex flex-col items-center justify-center">
             <div className="container mx-auto py-16 md:py-24 grid md:grid-cols-2">
                 <div className="relative left-[-50px] h-[600px] md:h-auto">
                     <img
@@ -16,7 +16,7 @@ export default function WhatWeDo() {
                     />
                 </div>
 
-                <div className="space-y-8 bg-gray-50">
+                <div className="space-y-8 w-full bg-gray-50">
                     <div className="space-y-4">
                         <h2 className="text-[#b89841] uppercase tracking-wide font-medium">What We Do</h2>
                         <h1 className="text-4xl md:text-5xl font-bold text-gray-900">Our Universe</h1>
@@ -25,7 +25,7 @@ export default function WhatWeDo() {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-2	 gap-6">
+                    <div className="md:grid md:grid-cols-2 gap-6 p-4 flex-wrap">
                         {services.map((service, index) => (
                             <ServiceItem key={index} {...service} />
                         ))}

@@ -77,7 +77,7 @@ const Header = () => {
                 className="relative"
             >
                 {slides.map((slide) => (
-                    <div key={slide.id} className="relative h-screen">
+                    <div key={slide.id} className="relative md:h-screen h-[50vh]">
                         <div className="absolute inset-0 bg-black bg-opacity-10 z-10 flex items-center justify-center">
                             <h2 className="text-4xl md:text-6xl text-white font-bold text-center max-w-4xl px-4">
                                 {slide.heading}
